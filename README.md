@@ -71,3 +71,25 @@ python comments starts with a ``#``
 #This is a comment
 print("Hello, World!")
 ````
+
+### Multi Line Comments
+
+Python does not really have a syntax for multi line comments. To add a multiline comment need to insert a # for each line.
+
+````
+#This is a comment
+#written in
+#more than just one line
+print("Hello, World!")
+````
+
+Since Python will ignore string literals that are not assigned to a variable, multiline string (triple quotes) can be used to place multi line comment inside it.
+
+````
+"""
+This is a comment
+written in
+more than just one line
+"""
+print("Hello, World!")
+````
