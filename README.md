@@ -61,4 +61,13 @@ if 5 > 2:
  print("Five is greater than two!")
         print("Five is greater than two!")
 ````
+### Python Comments
 
+Used to explain Python code, make the code more readable or to prevent execution of code.
+
+python comments starts with a ``#``
+
+````
+#This is a comment
+print("Hello, World!")
+````
