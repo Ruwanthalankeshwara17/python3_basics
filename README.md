@@ -23,6 +23,8 @@ python helloworld.py
 Run python code within the cmd it self.
 
 type python or py in the cmd
-This convert the cmd to python bash.
+This convert the cmd to python command line.
 
-then print("Hello, World!") can be run with there it self, no need of a file.
+Then print("Hello, World!") can be run with there it self, no need of a file.
+
+Use 'exit()' to exit from python command line. 
