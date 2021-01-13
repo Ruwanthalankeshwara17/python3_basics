@@ -28,3 +28,28 @@ This convert the cmd to python command line.
 Then print("Hello, World!") can be run with there it self, no need of a file.
 
 Use 'exit()' to exit from python command line. 
+
+Python Indentation
+
+Indentation is used to indicate a block of code.
+
+Correct
+if 5 > 2:
+  print("Five is greater than two!")
+  
+Error
+if 5 > 2:
+print("Five is greater than two!")
+
+The number of spaces is up to you as a programmer, but it has to be at least one.
+
+Correct
+if 5 > 2:
+ print("Five is greater than two!") 
+if 5 > 2:
+        print("Five is greater than two!") 
+      
+Error
+if 5 > 2:
+ print("Five is greater than two!")
+        print("Five is greater than two!")
