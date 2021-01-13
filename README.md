@@ -24,9 +24,9 @@ Open a cmd inside the folder where the ``'helloworld.py'`` is in and run followi
 
 ``python helloworld.py``
 
-Run python code within the cmd it self.
+#### Run python code within the cmd it self.
 
-type python or py in the cmd
+Type ``python`` or ``py`` in the cmd
 This convert the cmd to python command line.
 
 Then print("Hello, World!") can be run with there it self, no need of a file.
