@@ -33,7 +33,8 @@ Python Indentation
 
 Indentation is used to indicate a block of code.
 
-``Correct
+````
+Correct
 if 5 > 2:
   print("Five is greater than two!")
   
@@ -52,4 +53,6 @@ if 5 > 2:
 Error
 if 5 > 2:
  print("Five is greater than two!")
-        print("Five is greater than two!")``
+        print("Five is greater than two!")
+````
+
