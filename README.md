@@ -3,7 +3,7 @@
 Python is a general-purpose coding language.
 Unlike HTML, CSS, and JavaScript, it can be used for other types of programming and software development besides web development. It is a cross platform,object-oriented programming language, comparable to Perl, Ruby, Scheme, or Java.
 
-#### Let'scheck installed python version.
+#### Let's check installed python version.
 
 ``python --version
 ``
@@ -368,4 +368,14 @@ print(samplelist1)
 
 --output--
 ['item1', 'item3', 'item4', 'item5']
+```
+### Clear the List
+Use ``clear()`` to remove all the items in the list
+```
+samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
+samplelist1.clear()
+print(samplelist1)
+
+--output--
+[]
 ```
