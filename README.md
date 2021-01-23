@@ -268,6 +268,7 @@ print(samplelist1)
 --output--
 ['item1', 'uptatedItem2', 'updatedItem3', "item4", 'item5'] 
 ```
+Replace 3 items with 2 items
 ```
 samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
 samplelist1[1:4] = ["uptatedItem2", "updatedItem3"]
@@ -277,4 +278,16 @@ print(samplelist1)
 ['item1', 'uptatedItem2', 'updatedItem3', 'item5']
 
 Note: Here 3 items replaced by the new list of 2 items 
+```
+
+Replace 1 items with 2 items
+```
+samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
+samplelist1[1:2] = ["uptatedItem2", "updatedItem3"]
+print(samplelist1)
+
+--output--
+['item1', 'uptatedItem2', 'updatedItem3', 'item3', 'item4', 'item5']
+
+Note: Here 1 items replaced by the new list of 2 items 
 ```
