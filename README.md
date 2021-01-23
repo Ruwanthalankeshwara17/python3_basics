@@ -230,7 +230,7 @@ while i < 5:
 ### continue Statement
 ``continue`` statement stops the current iteration, and continue with the next
 ````
-i = 1
+i = 0
 while i < 5:
     i += 1
     if i == 3:
@@ -238,11 +238,29 @@ while i < 5:
     print(i)
   
 --output--
+1
 2
 4
 5
 ````
 
+### else Statement
+``else`` statement runs a block of code once when the condition no longer is true
+````
+i = 1
+while i < 5:
+  print(i)
+  i += 1
+else:
+  print("i is no longer less than 5")
+  
+--output--
+1
+2
+3
+4
+i is no longer less than 5
+````
 
 ### List
 Lists are used to store multiple items in a single variable.
