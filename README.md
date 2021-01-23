@@ -110,8 +110,8 @@ x = 6      # x is of type int
 x = "Mike" # x is now of type str
 print(x)
 
-output
-Mike
+--output--
+  Mike
 ````
 ### String Variables
 
@@ -122,8 +122,8 @@ x = "Mike"
 # is the same as
 x = 'Mike'
 
-output
-Mike
+--output--
+  Mike
 ````
 
 ### Case-Sensitive
@@ -155,7 +155,7 @@ y = "Mike"
 print(type(x))
 print(type(y))
 
-output
+--output--
 <class 'int'>
 <class 'str'>
 ````
@@ -173,8 +173,8 @@ len() function determines how many items a list has
 samplelist = ["item1", "item2", "item3"]
 print(len(samplelist))
 
-output
-3
+--output--
+  3
 ```
 
 List items can be of any data type or types
@@ -192,8 +192,8 @@ List items are indexed so the index number can be used to access them
 samplelist1 = ["item1", "item2", "item3"]
 print(samplelist1[0])
 
-output
-item1
+--output--
+  item1
 
 Note: The first item has index 0.
 ```
@@ -204,8 +204,8 @@ Negative indexing used to access items from the reverse or from the end, -1 refe
 samplelist1 = ["item1", "item2", "item3"]
 print(samplelist1[-1])
 
-output
-item3
+--output--
+  item3
 ```
 
 ### Range of Indexes
@@ -214,7 +214,7 @@ Specify a range of indexes by specifying where to start and where to end the ran
 samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
 print(samplelist1[1:3])
 
-output
+--output--
 ['item2', 'item3']
 
 Note: The search will start at index 1 (included) and end at index 3 (not included).
