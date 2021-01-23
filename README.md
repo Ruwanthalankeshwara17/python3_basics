@@ -149,3 +149,25 @@ y = "Mike"
 print(type(x))
 print(type(y))
 ````
+
+### List
+Lists are used to store multiple items in a single variable.
+Lists are created using square brackets,
+```
+samplelist = ["item1", "item2", "item3"]
+```
+
+### List Length
+len() function determines how many items a list has
+```
+print(len(thislist))
+```
+
+List items can be of any data type or types
+
+```
+samplelist1 = ["item1", "item2", "item3"]
+samplelist2 = [1, 2, 3, 4, 5]
+samplelist3 = [ True, False, False, True ]
+samplelist4 = [ True, "item1", False, 5 ]
+```
