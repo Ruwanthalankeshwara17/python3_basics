@@ -246,3 +246,15 @@ if "item2" in samplelist1:
 --output--
 Yes, 'item2' is in the list
 ```
+
+### Change Item Value
+Refer to the index number to change the value of a specific item
+```
+samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
+samplelist1[1] = "updatedItem2"
+print(samplelist1)
+
+--output--
+['item1', 'updatedItem2', 'item3', 'item4', 'item5']
+```
+
