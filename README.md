@@ -160,6 +160,39 @@ print(type(y))
 <class 'str'>
 ````
 
+### If ... Else
+Simple ``if`` example
+```
+a = 3
+b = 20
+if b > a:
+  print("b is greater than a")
+```
+
+### Elif
+Python way of telling if the previous condition is not true check this condition
+````
+a = 3
+b = 3
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+````
+
+### Else
+The ``else`` keyword catches anything which isn't caught by the preceding conditions.
+````
+a = 3
+b = 3
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+````
+
 ### List
 Lists are used to store multiple items in a single variable.
 Lists are created using square brackets,
