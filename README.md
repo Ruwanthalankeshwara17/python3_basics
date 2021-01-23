@@ -219,5 +219,21 @@ print(samplelist1[1:3])
 
 Note: The search will start at index 1 (included) and end at index 3 (not included).
 ```
+Folliwing will return the items from the beginning to, but NOT including, "item4"
+```
+samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
+print(samplelist1[:3])
+
+--output--
+['item1', 'item2', 'item3']
+```
+This will return the items from the "item3" to end
+```
+samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
+print(samplelist1[2:])
+
+--output--
+['item3', 'item4', 'item5']
+```
 
 
