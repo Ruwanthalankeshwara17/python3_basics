@@ -195,8 +195,8 @@ else:
 ### Python Loops
 Python has two primitive loop commands
 
-while loops
-for loops
+while loop and
+for loop
 
 ``while`` loop executes a set of statements as long as a condition is true
 ````
@@ -226,6 +226,23 @@ while i < 5:
 1
 2
 ````
+
+### continue Statement
+``continue`` statement stops the current iteration, and continue with the next
+````
+i = 1
+while i < 5:
+    i += 1
+    if i == 3:
+        continue
+    print(i)
+  
+--output--
+2
+4
+5
+````
+
 
 ### List
 Lists are used to store multiple items in a single variable.
