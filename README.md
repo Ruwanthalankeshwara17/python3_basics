@@ -291,3 +291,14 @@ print(samplelist1)
 
 Note: Here 1 items replaced by the new list of 2 items 
 ```
+### Append Items
+Use the append() method to add item to the end of the list
+```
+samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
+samplelist1.append("item6")
+
+--output--
+['item1', 'item2', 'item3', 'item4', 'item5', 'item6']
+```
+
+
