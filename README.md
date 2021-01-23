@@ -219,7 +219,7 @@ print(samplelist1[1:3])
 
 Note: The search will start at index 1 (included) and end at index 3 (not included).
 ```
-Folliwing will return the items from the beginning to, but NOT including, "item4"
+Folliwing will return the items from the beginning to, but NOT including, ``"item4"``
 ```
 samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
 print(samplelist1[:3])
@@ -227,7 +227,7 @@ print(samplelist1[:3])
 --output--
 ['item1', 'item2', 'item3']
 ```
-This will return the items from the "item3" to end
+This will return the items from the ``"item3"`` to end
 ```
 samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
 print(samplelist1[2:])
@@ -292,7 +292,7 @@ print(samplelist1)
 Note: Here 1 items replaced by the new list of 2 items 
 ```
 ### Append Items
-Use the append() method to add item to the end of the list
+Use the `append()` method to add item to the end of the list
 ```
 samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
 samplelist1.append("item6")
@@ -303,7 +303,7 @@ print(samplelist1)
 ```
 
 ### Insert Items
-Use the insert() method to insert an item at a specified index
+Use the `insert()` method to insert an item at a specified index
 ```
 samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
 samplelist1.insert(1, "insertedItem")
@@ -314,7 +314,7 @@ print(samplelist1)
 ```
 
 ### Extend List
-Use the extend() method to append elements from another list to the current list
+Use the `extend()` method to append elements from another list to the current list
 ```
 samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
 samplelist2 = ["item6", "item7", "item8"]
@@ -326,7 +326,7 @@ print(samplelist1)
 ```
 
 ### Remove Specified Item
-The remove() method removes the specified item
+The `remove()` method removes the specified item
 ```
 samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
 samplelist1.remove("item4")
@@ -337,7 +337,7 @@ print(samplelist1)
 ```
 
 ### Remove Specified Index
-The pop() method removes the specified index, It removes the last item if the index is not specified
+The `pop()` method removes the specified index, It removes the last item if the index is not specified
 ```
 samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
 samplelist1.pop()
@@ -356,6 +356,16 @@ print(samplelist1)
 --output--
 ['item1', 'item3', 'item4', 'item5']
 
-Note: Last item is removed
+Note: Item at index 1 is removed
 ```
+### del Key Word
+The `del` keyword also removes the specified index
 
+```
+samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
+del samplelist1[1]
+print(samplelist1)
+
+--output--
+['item1', 'item3', 'item4', 'item5']
+```
