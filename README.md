@@ -192,6 +192,40 @@ elif a == b:
 else:
   print("a is greater than b")
 ````
+### Python Loops
+Python has two primitive loop commands
+
+while loops
+for loops
+
+``while`` loop executes a set of statements as long as a condition is true
+````
+i = 1
+while i < 5:
+  print(i)
+  i += 1
+  
+--output--
+1
+2
+3
+4
+````
+
+### break Statement
+``break`` statement stops the loop even if the while condition is true
+````
+i = 1
+while i < 5:
+  print(i)
+  i += 1
+  if i == 3:
+    break
+  
+--output--
+1
+2
+````
 
 ### List
 Lists are used to store multiple items in a single variable.
