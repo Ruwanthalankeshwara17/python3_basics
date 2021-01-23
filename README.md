@@ -236,4 +236,13 @@ print(samplelist1[2:])
 ['item3', 'item4', 'item5']
 ```
 
+### Check if Item Exists
+Use the ``in`` keyword to determine if the specified item present in the list
+```
+samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
+if "item2" in samplelist1:
+  print("Yes, 'item2' is in the list")
 
+--output--
+Yes, 'item2' is in the list
+```
