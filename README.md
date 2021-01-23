@@ -313,3 +313,14 @@ print(samplelist1)
 ['item1', 'insertedItem', 'item2', 'item3', 'item4', 'item5']
 ```
 
+### Extend List
+Use the extend() method to append elements from another list to the current list
+```
+samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
+samplelist2 = ["item6", "item7", "item8"]
+samplelist1.extend(samplelist2)
+print(samplelist1)
+
+--output--
+['item1', 'item2', 'item3', 'item4', 'item5', 'item6', 'item7', 'item8']
+```
