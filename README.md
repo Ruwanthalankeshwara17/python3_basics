@@ -257,4 +257,24 @@ print(samplelist1)
 --output--
 ['item1', 'updatedItem2', 'item3', 'item4', 'item5']
 ```
+### Change a Range of Item Values
+Define a list with the new values, and refer to the range of index numbers to insert the new values
 
+```
+samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
+samplelist1[1:3] = ["uptatedItem2", "updatedItem3"]
+print(samplelist1)
+
+--output--
+['item1', 'uptatedItem2', 'updatedItem3', "item4", 'item5'] 
+```
+```
+samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
+samplelist1[1:4] = ["uptatedItem2", "updatedItem3"]
+print(samplelist1)
+
+--output--
+['item1', 'uptatedItem2', 'updatedItem3', 'item5']
+
+Note: Here 3 items replaced by the new list of 2 items 
+```
