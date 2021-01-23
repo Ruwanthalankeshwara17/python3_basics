@@ -109,6 +109,9 @@ Variables do not need to be declared with any particular type, and can even chan
 x = 6      # x is of type int
 x = "Mike" # x is now of type str
 print(x)
+
+output
+Mike
 ````
 ### String Variables
 
@@ -118,6 +121,9 @@ String variables can be declared either by using single or double quotes.
 x = "Mike"
 # is the same as
 x = 'Mike'
+
+output
+Mike
 ````
 
 ### Case-Sensitive
@@ -148,6 +154,10 @@ x = 5
 y = "Mike"
 print(type(x))
 print(type(y))
+
+output
+<class 'int'>
+<class 'str'>
 ````
 
 ### List
