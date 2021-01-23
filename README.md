@@ -324,3 +324,38 @@ print(samplelist1)
 --output--
 ['item1', 'item2', 'item3', 'item4', 'item5', 'item6', 'item7', 'item8']
 ```
+
+### Remove Specified Item
+The remove() method removes the specified item
+```
+samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
+samplelist1.remove("item4")
+print(samplelist1)
+
+--output--
+['item1', 'item2', 'item3', 'item5']
+```
+
+### Remove Specified Index
+The pop() method removes the specified index, It removes the last item if the index is not specified
+```
+samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
+samplelist1.pop()
+print(samplelist1)
+
+--output--
+['item1', 'item2', 'item3', 'item4']
+
+Note: Last item is removed
+```
+```
+samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
+samplelist1.pop(1)
+print(samplelist1)
+
+--output--
+['item1', 'item3', 'item4', 'item5']
+
+Note: Last item is removed
+```
+
