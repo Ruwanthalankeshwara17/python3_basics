@@ -296,9 +296,20 @@ Use the append() method to add item to the end of the list
 ```
 samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
 samplelist1.append("item6")
+print(samplelist1)
 
 --output--
 ['item1', 'item2', 'item3', 'item4', 'item5', 'item6']
 ```
 
+### Insert Items
+Use the insert() method to insert an item at a specified index
+```
+samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
+samplelist1.insert(1, "insertedItem")
+print(samplelist1)
+
+--output--
+['item1', 'insertedItem', 'item2', 'item3', 'item4', 'item5']
+```
 
