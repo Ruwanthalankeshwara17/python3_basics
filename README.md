@@ -171,3 +171,28 @@ samplelist2 = [1, 2, 3, 4, 5]
 samplelist3 = [ True, False, False, True ]
 samplelist4 = [ True, "item1", False, 5 ]
 ```
+
+### Access Items
+List items are indexed so the index number can be used to access them
+```
+samplelist1 = ["item1", "item2", "item3"]
+print(samplelist1[0])
+
+Note: The first item has index 0.
+```
+
+### Negative Indexing
+Negative indexing used to access items from the reverse or from the end, -1 refers to the last item, -2 refers to the second last item etc.
+```
+samplelist1 = ["item1", "item2", "item3"]
+print(samplelist1[-1])
+```
+
+### Range of Indexes
+Specify a range of indexes by specifying where to start and where to end the range. This will return a new list with specified items.
+```
+samplelist1 = ["item1", "item2", "item3", "item4", "item5"]
+print(thislist[1:3])
+```
+
+
